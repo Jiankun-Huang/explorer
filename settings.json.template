@@ -5,15 +5,15 @@
 */
 {
   // name your instance!
-  "title": "IQUIDUS",
+  "title": "Goldcoin Block Explorer",
 
   "address": "127.0.0.1:3001",
 
   // coin name
-  "coin": "Darkcoin",
+  "coin": "Goldcoin",
 
   // coin symbol
-  "symbol": "DRK",
+  "symbol": "GDC",
 
   // logo
   "logo": "/images/logo.png",
@@ -50,9 +50,9 @@
 
   "wallet": {
     "host": "localhost",
-    "port": 9332,
-    "username": "darkcoinrpc",
-    "password": "123gfjk3R3pCCVjHtbRde2s5kzdf233sa"
+    "port": 8000,
+    "username": "rpc_Jackcoin",
+    "password": "rabi2238"
   },
 
   // confirmations
@@ -63,10 +63,10 @@
 
   // menu settings
   "display": {
-    "api": true,
-    "markets": true,
+    "api": false,
+    "markets": false,
     "richlist": true,
-    "twitter": true,
+    "twitter": false,
     "facebook": false,
     "googleplus": false,
     "youtube": false,
@@ -130,8 +130,8 @@
   "youtube": "youryoutubechannel",
 
   //genesis
-  "genesis_tx": "65f705d2f385dc85763a317b3ec000063003d6b039546af5d8195a5ec27ae410",
-  "genesis_block": "b2926a56ca64e0cd2430347e383f63ad7092f406088b9b86d6d68c2a34baef51",
+  "genesis_tx": "faf89eb2b37d382b392098b28e50452078c4c9974941c986d28b4fc23dd3c474",
+  "genesis_block": "919906619f37eefb70bb6971f37a2aaca372ab63365a69bcbdfb45d993aca967",
 
   //heavy (enable/disable additional heavy features)
   "heavy": false,
